@@ -1,0 +1,70 @@
+/* general styles */
+body {
+    background-color: aquamarine;
+    margin: 25px;
+    padding: 5px;
+    text-align: left;
+}
+
+/* heading color */
+.top-heading {
+    color: rgb(172, 42, 237)
+}
+
+/* make link icons small */
+.small-image {
+    max-width: 50px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+/* make portrait bigger, round corners */
+.large-image {
+    max-width: 150px;
+    border-radius: 20px;
+}
+
+img {
+    padding: 2px;
+    margin: 1px;
+}
+
+/* colors of each section */
+.education {
+    background-color: orange;
+    padding: 2px;
+}
+
+.project {
+    background-color: antiquewhite;
+    padding: 2px;
+}
+
+.skills {
+    background-color: aqua;
+    padding: 2px;
+}
+
+.interest {
+    background-color: lightgreen;
+    padding: 2px;
+}
+
+/* color and size of the link */
+a {
+    color: coral;
+    font-size: large;
+    margin: 2px;
+    padding: 2px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+
+h2 {
+    font-weight: 900;
+}
+

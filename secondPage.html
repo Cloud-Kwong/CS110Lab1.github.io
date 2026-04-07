@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Second Page - Cloud Kwong</title>
+        <link rel="stylesheet" href="secondPageStyles.css" />
+    </head>
+    <body>
+        <h1>Wikipedia</h1>
+        <h2>The Free Encyclopedia</h2>
+        <!-- main structure is 3 divs inside a div for flex -->
+        <div class="outer">
+            <div>
+                <!-- section with photo -->
+                <h2>Current Events</h2>
+                <a href="https://en.wikipedia.org/wiki/Artemis_II" target="_blank">
+                    <img src="artemis2launch.jpg" alt="image of the Artemis 2 rocket launching" class="medium-image">
+                </a>
+                <p>The Artemis II rocket was launched on April 1, 2026, with its mission being a flyby of the Moon.</p>
+            </div>
+            <div>
+                <!-- section with video linked from Wikipedia -->
+                <h2>Random Article</h2>
+                <a href="https://en.wikipedia.org/wiki/2020_Beirut_explosion" target="_blank">
+                    <h3>2020 Beirut explosion</h3>
+                </a>
+                <iframe width="490" height="277" alt="video of red smoke over Lebanon from the Beirut port explosion" src="https://upload.wikimedia.org/wikipedia/commons/5/59/%D8%AF%D8%AE%D8%A7%D9%86_%D8%A7%D9%86%D9%81%D8%AC%D8%A7%D8%B1_%D8%A8%D9%8A%D8%B1%D9%88%D8%AA_%D8%A7%D9%86%D8%AA%D8%B4%D8%B1_%D9%81%D9%8A_%D9%83%D9%84_%D8%B3%D9%85%D8%A7%D8%A1_%D9%84%D8%A8%D9%86%D8%A7%D9%86.webm">
+                </iframe>
+                <p>Red smoke over Lebanon from the Beirut port explosion.</p>
+            </div>
+            <div>
+                <!-- section with the form -->
+                <h2>Give Feedback</h2>
+                <form>
+                    <!-- text box -->
+                    <label for="name">Enter your name:</label>
+                    <br>
+                    <input type="text" id="name" value="">
+                </form>
+                <p>How would the rate the site?</p>
+                <form>
+                    <!-- multiple choice -->
+                    <input type="radio" id="1" name="rating">
+                    <label for="1">1</label>
+                    <br>
+                    <input type="radio" id="2" name="rating">
+                    <label for="2">2</label>
+                    <br>
+                    <input type="radio" id="3" name="rating">
+                    <label for="3">3</label>
+                    <br>
+                    <input type="radio" id="4" name="rating">
+                    <label for="4">4</label>
+                    <br>
+                    <input type="radio" id="5" name="rating">
+                    <label for="5">5</label>
+                    <br>
+                    <!-- submit button -->
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <!-- image to be animated with CSS -->
+        <img src="wikipediaLogo.webp" alt="animation of a Wikipedia logo" class="animate"></img>
+        <!-- link to go back to first page -->
+        <a href="index.html" class="return">Click here to return to the first page</a>
+    </body>
+</html>
