@@ -17,7 +17,7 @@ h3 {
 }
 
 iframe {
-    padding: 2px;
+    width: 100%;
 }
 
 /* style of the link to return to the first page */
@@ -31,6 +31,7 @@ iframe {
 img {
     padding: 2px;
     margin: 1px;
+    width: 100%;
 }
 
 label {
@@ -44,11 +45,12 @@ form {
 /* use flex display */
 .outer {
     display: flex;
+    width: 100%;
 }
 
 div div {
+    flex: 1;
     background-color: lightsalmon;
-    width: 500px;
     height: 800px;
     border: solid 3px thistle;
 }
